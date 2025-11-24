@@ -1,0 +1,76 @@
+
+
+body{
+    background-image: url('./assets/corkboard.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.homemepic{
+    width: 20%;
+    height: auto;
+    position: fixed;
+    top: 50px;
+    right: 300px;
+
+}
+
+.projbyzuri{
+    width: 30%;
+    height: auto;
+
+}
+
+
+.projbyzuri:hover{
+    transform: rotate(360deg);
+    transition: transform 0.9s ease-in-out;
+    
+}
+
+.doodle{
+    width: 30%;
+    height:auto;
+    position: fixed;
+    top: 75px;
+    left: 100px;
+    
+}
+
+.doodle:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.9s ease-in-out;
+}
+
+.guitar{
+    width: 20%;
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.project-img{
+    width: 20%;
+    height: auto;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+
+}
+
+
+
+
